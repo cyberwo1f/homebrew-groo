@@ -2,12 +2,12 @@
 class Groo < Formula
   desc "groo command is open the web site for current git remote."
   homepage ""
-  version "0.5.0-rc4"
+  version "1.0.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/cyberwo1f/groo/releases/download/v0.5.0-rc4/groo_macOS_amd64.tar.gz"
-    sha256 "74acc70cd825c1e9ab87a02650928b45cb668be8a7c721f150892669cd7d82eb"
+    url "https://github.com/cyberwo1f/groo/releases/download/v1.0.0/groo_macOS_amd64.tar.gz"
+    sha256 "7f67204fce789df40ee1188a8111a1e540e8cd3a8cbb9fa0e3e61bb41e048250"
   elsif OS.linux?
   end
 
